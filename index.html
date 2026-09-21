@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HotPinoy - Videos</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+        }
+
+        header {
+            background: #1b1b1b;
+            padding: 18px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #ff4d4d;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        .video-box {
+            background: #1d1d1d;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 25px;
+        }
+
+        video {
+            width: 100%;
+            max-height: 600px;
+            background: black;
+            border-radius: 8px;
+        }
+
+        .video-title {
+            font-size: 24px;
+            margin-top: 15px;
+        }
+
+        .ad {
+            background: #222;
+            border: 1px dashed #555;
+            padding: 25px;
+            text-align: center;
+            color: #999;
+            margin: 30px 0;
+        }
+
+        footer {
+            background: #1b1b1b;
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+            color: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🔥 HotPinoy</div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Videos</a>
+        <a href="#">Categories</a>
+        <a href="#">About</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <h1>Latest Videos</h1>
+
+    <div class="ad">
+        Advertisement
+    </div>
+
+    <div class="video-box">
+
+        <video controls>
+            <source src="videos/rain.mp4" type="video/mp4">
+            Your browser does not support the video player.
+        </video>
+
+        <div class="video-title">
+            Rain
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    © 2026 HotPinoy. All rights reserved.
+</footer>
+
+</body>
+</html>
